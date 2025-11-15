@@ -22,3 +22,9 @@ h4 {
 .hl {
     color: var(--color-hl);
 }
+
+@media print {
+    body {
+        font-size: 1.8em;
+    }
+}
