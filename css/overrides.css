@@ -4,7 +4,6 @@
     --color-cream: #f6f5f1;
     --color-black: #353534;
     --color-hl: rgb(149, 4, 97);
-    --color-fade-text: rgba(54, 54, 52, 0.15);
 }
 
 body {
@@ -29,12 +28,12 @@ h4 {
     font-size: 1.4em;
 }
 
-.fade {
-    color: var(--color-fade-text);
+.small-text-table {
+    font-size: 0.6em;
 }
 
 @media print {
     body {
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
 }
